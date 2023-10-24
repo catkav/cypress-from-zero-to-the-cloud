@@ -18,6 +18,10 @@ In this project, you can run tests in both headless and interactive modes.
 
 Run `npm test` (or `npm t` for the short version) to run the tests in headless mode.
 
-## Headed mode
+Or, run `npm run test:mobile` to run the tests in headless mode in a mobile viewport.
 
-Or, run `npm run cy:open` to open the Cypress App and run the tests in interactive mode.
+## Interactive mode
+
+Or, run `npm run cy:open` to open the Cypress App and run the tests in interactive mode in a desktop viewport.
+
+Or, run `npm run cy:mobile` to open the Cypress App and run the tests in interactive mode in a mobile viewport.
