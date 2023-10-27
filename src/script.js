@@ -6,14 +6,14 @@ const phoneField = document.getElementById("phone");
 document
   .querySelector("#phone-checkbox")
   .addEventListener("change", function () {
-    if (this.checked && 1 === 2) {
+    if (this.checked) {
       phoneLabelSpan.style.display = "inline";
-      phoneField.required = !isPhoneRequired;
-      isPhoneRequired = !isPhoneRequired;
+      phoneField.required = false;
+      isPhoneRequired = false;
     } else {
       phoneLabelSpan.style.display = "none";
-      phoneField.required = !isPhoneRequired;
-      isPhoneRequired = !isPhoneRequired;
+      phoneField.required = false;
+      isPhoneRequired = false;
     }
   });
 
