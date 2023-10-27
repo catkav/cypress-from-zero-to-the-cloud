@@ -1,28 +1,27 @@
-# 🌲 Cypress, from Zero to the Cloud ☁️
+Sample project to practice with [Cypress](https://cypress.io).
 
-👋 Welcome!
+## Pre-requirements
 
-It's great to have you here. I'm sure you will love this course. ❤️
+It is required to have git, Node.js and npm installed to clone and run this project.
 
-## What you will learn from the course
+> I used versions `2.34.1`, `v18.15.0`, and `9.5.0.` of git, Node.js and npm, respectively. I suggest you use the same or later LTS versions.
 
-- How to set up a Cypress project from scratch
-- How to visit local and remote pages
-- How to deal with elements most commonly found in web applications
-- How to test file uploading
-- How to perform various assertions of expected results
-- How to create custom commands
-- How to deal with links that open in another browser tab
-- How to run tests simulating a mobile device
-- How to solve the same problems in different ways, using the [Cypress API](https://docs.cypress.io/api/table-of-contents)
-- How to create effective documentation for your automated testing project
-- How to run tests in a continuous integration (CI) workflow
-- How to integrate your CI workflow with the Cypress Cloud
+## Installation
 
-## Let's start
+After cloning the project and accessing it, run `npm install` (or `npm i` for the short version) to install the dev dependencies.
 
-Go to the [course structure](./lessons/_course-structure_.md) section.
+## Tests
 
-___
+In this project, you can run tests in both headless and interactive modes.
 
-This is a course from [**Talking About Testing School**](https://udemy.com/user/walmyr).
+## Headless mode
+
+Run `npm test` (or `npm t` for the short version) to run the tests in headless mode.
+
+Or, run `npm run test:mobile` to run the tests in headless mode in a mobile viewport.
+
+## Interactive mode
+
+Or, run `npm run cy:open` to open the Cypress App and run the tests in interactive mode in a desktop viewport.
+
+Or, run `npm run cy:mobile` to open the Cypress App and run the tests in interactive mode in a mobile viewport.
