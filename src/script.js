@@ -8,12 +8,12 @@ document
   .addEventListener("change", function () {
     if (this.checked) {
       phoneLabelSpan.style.display = "inline";
-      phoneField.required = false;
-      isPhoneRequired = false;
+      phoneField.required = !isPhoneRequired;
+      isPhoneRequired = !isPhoneRequired;
     } else {
       phoneLabelSpan.style.display = "none";
-      phoneField.required = false;
-      isPhoneRequired = false;
+      phoneField.required = !isPhoneRequired;
+      isPhoneRequired = !isPhoneRequired;
     }
   });
 
